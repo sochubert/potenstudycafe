@@ -63,10 +63,10 @@ footer > div {
   margin: 0 auto;
 }
 
-main {
+/*main {
   padding-bottom: 80px;
   font-size: 1.8em;
-}
+}*/
 
 h2 {
   display: inline;
@@ -79,33 +79,24 @@ h2 {
   font-weight: bold;
 }
 
-footer {
-  font-size: 1.5em;
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
-  color: white;
-  padding: 1px 0px 10px 10px;
-}
 
-main,
-footer > div {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 
 main {
   padding-bottom: 80px;
-  display: inline;
+  /*display: inline;*/
+  font-size: 1.8em;
 }
 
 footer {
+  font-size: 1.5em;
   border-top: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
   background-color: #6f3b48;
   color: white;
   text-align: center;
-  padding: 64px 0 40px 0;
+  padding: 60px 0 40px 0;
 }
+
 
 .image {
   max-width: 100%;
