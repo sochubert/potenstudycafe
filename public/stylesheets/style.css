@@ -2,12 +2,17 @@ body {
   margin: auto;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #e5ccc8;
+  background-color: #ffeee7/*#e5ccc8*/;
 }
 
 header {
-  background-color: #6f3b48;
+  background-color: #070e18/*#6f3b48*/;
   color: #ffeee7;
+  padding: 30px 0 30px 0;
+}
+
+#qheader{
+  margin-bottom: 30px;
 }
 
 .saw {
@@ -21,22 +26,22 @@ ul {
 
 header h1 {
   text-align: center;
-  font-size: 5em;
+  font-size: 6em;
   margin: 0;
-  padding: 50px 0px 25px 0px;
+  padding: 50px 0px 50px 0px;
 }
 
 .nav {
+  white-space:nowrap;
   text-align: center;
-  padding: 10px;
-  margin-bottom: 30px;
+  padding : 20px 0 20px 0;
   margin: auto;
-  max-width: 70%;
+  /*max-width: 70%;*/
 }
 
 .nav li {
   display: inline;
-  font-size: 1.5em;
+  font-size: 2.7em;
   margin: 0 10px;
 }
 
@@ -63,10 +68,6 @@ footer > div {
   margin: 0 auto;
 }
 
-/*main {
-  padding-bottom: 80px;
-  font-size: 1.8em;
-}*/
 
 h2 {
   display: inline;
@@ -89,12 +90,22 @@ main {
 
 footer {
   font-size: 1.5em;
-  border-top: 1px solid #eaeaea;
-  border-bottom: 1px solid #eaeaea;
-  background-color: #6f3b48;
+  border-top: 10px solid #102A4F;
+  box-sizing : content-box;
+  background-color: #070e18/*#6f3b48*/;
   color: white;
   text-align: center;
-  padding: 60px 0 40px 0;
+  padding: 40px 0 40px 0;
+}
+
+footer li{
+  list-style: none;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+#qfooter{
+  margin-top:20px;
 }
 
 
