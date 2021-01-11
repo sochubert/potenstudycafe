@@ -2,21 +2,21 @@ body {
   margin: auto;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #ffeee7/*#e5ccc8*/;
+  background-color: #fff7f4;
 }
 
 header {
-  background-color: #070e18/*#6f3b48*/;
-  color: #ffeee7;
+  background-color: #070e18;
+  color: #fff7f4;
   padding: 30px 0 30px 0;
 }
 
-#qheader{
+#qheader {
   margin-bottom: 30px;
 }
 
 .saw {
-  color: #ffeee7;
+  color: #fff7f4;
 }
 
 ul {
@@ -32,9 +32,9 @@ header h1 {
 }
 
 .nav {
-  white-space:nowrap;
+  white-space: nowrap;
   text-align: center;
-  padding : 20px 0 20px 0;
+  padding: 20px 0 20px 0;
   margin: auto;
   /*max-width: 70%;*/
 }
@@ -53,12 +53,12 @@ header h1 {
 
 .nav2 li {
   display: inline;
-  color: #ffeee7;
+  color: #fff7f4;
   font-weight: bold;
 }
 
 a {
-  color: #f3e4df;
+  color: #fff7f4;
   text-decoration: none;
 }
 
@@ -67,7 +67,6 @@ footer > div {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 
 h2 {
   display: inline;
@@ -80,8 +79,6 @@ h2 {
   font-weight: bold;
 }
 
-
-
 main {
   padding-bottom: 80px;
   /*display: inline;*/
@@ -90,24 +87,22 @@ main {
 
 footer {
   font-size: 1.5em;
-  border-top: 10px solid #102A4F;
-  box-sizing : content-box;
-  background-color: #070e18/*#6f3b48*/;
-  color: white;
+  box-sizing: content-box;
+  background-color: #070e18 /*#6f3b48*/;
+  color: #fff7f4;
   text-align: center;
   padding: 40px 0 40px 0;
 }
 
-footer li{
+footer li {
   list-style: none;
   display: inline;
   padding: 0 10px 0 10px;
 }
 
-#qfooter{
-  margin-top:20px;
+#qfooter {
+  margin-top: 20px;
 }
-
 
 .image {
   max-width: 100%;
