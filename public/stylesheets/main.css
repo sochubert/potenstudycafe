@@ -2688,6 +2688,9 @@ input[type="radio"]:focus + label:before {
 /* Image */
 
 .image {
+  max-width: 100%;
+  height: auto;
+  display: block;
   border: 0;
   display: inline-block;
   position: relative;
