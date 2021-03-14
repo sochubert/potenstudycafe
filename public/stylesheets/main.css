@@ -3004,10 +3004,10 @@ ul.icons.alt li a.icon:hover:before {
 
 /* Section/Article */
 
-section.special,
+/* section.special,
 article.special {
   text-align: center;
-}
+} */
 
 header {
   cursor: default;
