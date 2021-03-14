@@ -2690,22 +2690,15 @@ input[type="radio"]:focus + label:before {
 .image {
   max-width: 100%;
   height: auto;
-  display: relative;
+  display: inline-block;
+  position: relative;
 }
 
 .image img {
-  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
-.image.left,
-.image.right {
-  max-width: 40%;
-}
-
-.image.left img,
-.image.right img {
-  width: 100%;
-}
 
 .image.left {
   float: left;
