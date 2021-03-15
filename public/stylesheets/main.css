@@ -3994,6 +3994,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-style: solid;
   border-top-width: 2px;
   text-align: center;
+  margin:auto;
 }
 
 #main > .posts > article > :last-child {
