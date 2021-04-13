@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
 /*
 	Massively by HTML5 UP
@@ -236,7 +236,7 @@ body,
 input,
 select,
 textarea {
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-weight: 300;
   font-size: 1rem;
   line-height: 2.375;
@@ -280,7 +280,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Jua', sans-serif; 
+  font-family: "Jua", sans-serif;
   font-weight: 900;
   line-height: 1.5;
   letter-spacing: 0.075em;
@@ -350,7 +350,7 @@ blockquote {
 code {
   border: solid 2px;
   /* font-family: "Courier New", monospace; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.9rem;
   margin: 0 0.25rem;
   padding: 0.25rem 0.65rem;
@@ -359,7 +359,7 @@ code {
 pre {
   -webkit-overflow-scrolling: touch;
   /* font-family: "Courier New", monospace; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.9rem;
   margin: 0 0 2rem 0;
 }
@@ -2185,7 +2185,7 @@ button,
   cursor: pointer;
   display: inline-block;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.8rem;
   font-weight: 900;
   letter-spacing: 0.075em;
@@ -2418,7 +2418,7 @@ form > .fields > .field.quarter {
 label {
   display: block;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-weight: 900;
   line-height: 1.5;
   letter-spacing: 0.075em;
@@ -2511,7 +2511,7 @@ input[type="radio"] + label {
   font-size: 1rem;
   letter-spacing: 0;
   /* font-family: "Merriweather", Georgia, serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   text-transform: none;
   font-weight: 300;
   padding-left: 2.8rem;
@@ -2599,7 +2599,7 @@ textarea:focus {
 }
 
 select {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23eeeeee' /%3E%3C/svg%3E");
+  background-image: url("/public/images/bg.jpg");
 }
 
 select option {
@@ -2703,7 +2703,6 @@ input[type="radio"]:focus + label:before {
   max-width: 100%;
   height: auto;
 }
-
 
 .image.left {
   float: left;
@@ -3122,7 +3121,7 @@ table td {
 
 table th {
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.8rem;
   font-weight: 900;
   letter-spacing: 0.075em;
@@ -3229,7 +3228,7 @@ table.alt tbody tr td {
   border: solid 2px;
   display: inline-block;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.8rem;
   font-weight: 900;
   height: 3rem;
@@ -3342,7 +3341,7 @@ table.alt tbody tr td {
   width: 100%;
   height: 100%;
   background-color: #212931;
-  background-image: url("../../images/overlay.png"),
+  background-image: url("../../images/bg.jpg"),
     linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("../../images/bg.jpg");
   background-size: auto, auto, 100% auto;
@@ -3392,7 +3391,7 @@ body.is-preload #wrapper.fade-in:before {
 /* Intro */
 
 #intro {
-  color: #ffffff;
+  color: #000000;
   padding: 8rem 4rem 6rem 4rem;
   -moz-align-items: center;
   -webkit-align-items: center;
@@ -3424,11 +3423,11 @@ body.is-preload #wrapper.fade-in:before {
 #intro input,
 #intro select,
 #intro textarea {
-  color: #ffffff;
+  color: #000000;
 }
 
 #intro a {
-  color: #ffffff;
+  color: #000000;
   border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -3439,7 +3438,7 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro strong,
 #intro b {
-  color: #ffffff;
+  color: #000000;
 }
 
 #intro h1,
@@ -3448,20 +3447,20 @@ body.is-preload #wrapper.fade-in:before {
 #intro h4,
 #intro h5,
 #intro h6 {
-  color: #ffffff;
+  color: #000000;
 }
 
 #intro blockquote {
-  border-left-color: #ffffff;
+  border-left-color: #000000;
 }
 
 #intro code {
   background: rgba(255, 255, 255, 0.075);
-  border-color: #ffffff;
+  border-color: #000000;
 }
 
 #intro hr {
-  border-bottom-color: #ffffff;
+  border-bottom-color: #000000;
 }
 
 #intro input[type="submit"],
@@ -3470,8 +3469,8 @@ body.is-preload #wrapper.fade-in:before {
 #intro button,
 #intro .button {
   background-color: transparent;
-  box-shadow: inset 0 0 0 2px #ffffff;
-  color: #ffffff !important;
+  box-shadow: inset 0 0 0 2px #000000;
+  color: #000000 !important;
 }
 
 #intro input[type="submit"]:hover,
@@ -3488,7 +3487,7 @@ body.is-preload #wrapper.fade-in:before {
 #intro input[type="button"].primary,
 #intro button.primary,
 #intro .button.primary {
-  background-color: #ffffff;
+  background-color: #000000;
   box-shadow: none;
   color: #1e252d !important;
 }
@@ -3662,20 +3661,20 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #header h4,
 #header h5,
 #header h6 {
-  color: #ffffff;
+  color: #000000;
 }
 
 #header blockquote {
-  border-left-color: #ffffff;
+  border-left-color: #000000;
 }
 
 #header code {
   background: rgba(255, 255, 255, 0.075);
-  border-color: #ffffff;
+  border-color: #000000;
 }
 
 #header hr {
-  border-bottom-color: #ffffff;
+  border-bottom-color: #000000;
 }
 
 #header .logo {
@@ -3692,7 +3691,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-color: #ffffff;
   border-width: 5px !important;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 2.25rem;
   font-weight: 900;
   letter-spacing: 0.075em;
@@ -3822,7 +3821,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-weight: 900;
   letter-spacing: 0.075em;
   list-style: none;
@@ -3994,7 +3993,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-style: solid;
   border-top-width: 2px;
   text-align: center;
-  margin:auto;
+  margin: auto;
 }
 
 #main > .posts > article > :last-child {
@@ -4188,7 +4187,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #footer select {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='%23e2e2e2' /%3E%3C/svg%3E");
+  background-image: url("../images/bg.jpg");
 }
 
 #footer select option {
@@ -4512,7 +4511,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   color: rgba(255, 255, 255, 0.25);
   cursor: default;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.8rem;
   font-weight: 900;
   letter-spacing: 0.075em;
@@ -4543,7 +4542,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #copyright strong,
 #copyright b {
-  color: #ffffff;
+  color: #000000;
 }
 
 #copyright h1,
@@ -4552,20 +4551,20 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 #copyright h4,
 #copyright h5,
 #copyright h6 {
-  color: #ffffff;
+  color: #000000;
 }
 
 #copyright blockquote {
-  border-left-color: #ffffff;
+  border-left-color: #000000;
 }
 
 #copyright code {
   background: rgba(255, 255, 255, 0.075);
-  border-color: #ffffff;
+  border-color: #000000;
 }
 
 #copyright hr {
-  border-bottom-color: #ffffff;
+  border-bottom-color: #000000;
 }
 
 #copyright a {
@@ -4629,9 +4628,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   top: 0.75rem;
   right: 0.75rem;
   border: 0;
-  color: #ffffff;
+  color: #000000;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.9rem;
   font-weight: 900;
   letter-spacing: 0.075em;
@@ -4657,13 +4656,13 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #navPanelToggle.alt {
-  background-color: rgba(255, 255, 255, 0.875);
+  /* background-color: rgba(0, 0, 0, 0.875); */
   box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25);
-  color: #212931;
+  color: #000000;
 }
 
 #navPanelToggle.alt:hover {
-  background-color: #ffffff;
+  background-color: #000000;
 }
 
 @media screen and (max-width: 980px) {
@@ -4720,7 +4719,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-bottom: 0;
   display: block;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   font-size: 0.9rem;
   font-size: 0.9rem;
   font-weight: 900;
