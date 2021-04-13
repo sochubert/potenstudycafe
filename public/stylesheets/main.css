@@ -3641,7 +3641,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 }
 
 #header a {
-  color: #ffffff;
+  color: #000000;
   border-bottom-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -3688,7 +3688,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
   pointer-events: auto;
   border-style: solid;
-  border-color: #ffffff;
+  border-color: #000000;
   border-width: 5px !important;
   /* font-family: "Source Sans Pro", Helvetica, sans-serif; */
   font-family: "Jua", sans-serif;
