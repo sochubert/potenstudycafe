@@ -400,7 +400,7 @@ textarea {
 }
 
 a {
-  color: #212931;
+  color: #000000;
   border-bottom-color: rgba(33, 41, 49, 0.5);
 }
 
@@ -3582,7 +3582,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @media screen and (max-width: 736px) {
   #intro {
-    padding: 3rem 2rem 1rem 2rem;
+    padding: 2rem 1rem 0rem 1rem;
     min-height: 80vh;
   }
 
@@ -4673,7 +4673,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @media screen and (max-width: 736px) {
   #navPanelToggle {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     padding: 0.25rem 1rem;
   }
 }
